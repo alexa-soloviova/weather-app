@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script
+      src="https://kit.fontawesome.com/86d9c8ce3d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/script.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  </head>
+  <body>
+    <form class="form">
+      <input
+        type="text"
+        class="form-control"
+        id="input-city"
+        placeholder="Enter a city"
+      />
+      <button class="btn btn-primary">Search</button>
+      <button class="btn btn-primary" id="current-but">Current</button>
+      <label for="name" class="vl">
+        <span id="city">Menden</span> <br />
+        <span id="date">Friday 18.33 </span><br /><span id="weather-type">
+        Rain</span></label
+      >
+    </form>
+    <h1>
+      <span id="temperature">21</span>
+      <span class="temp"><a href="" id="celsius">°C</a></span
+      ><span class="temp"> / </span
+      ><span class="temp"><a href="" id="fahrenheit">°F</a></span>
+    </h1>
+    <span class="hum-wind"><p>humidity: <span id="humidity"></span> % | wind: <span id="wind"></span> km/h</p></span>
+    <div>
+      <p>sat</p>
+      <i class="fa-solid fa-cloud"></i>
+      <p><strong>20°C</strong></p>
+    </div>
+    <div>
+      <p>sun</p>
+      <i class="fa-solid fa-cloud-bolt"></i>
+      <p><strong>19°C</strong></p>
+    </div>
+    <div>
+      <p>mon</p>
+      <i class="fa-solid fa-sun"></i>
+      <p><strong>21°C</strong></p>
+    </div>
+    <div>
+      <p>tue</p>
+      <i class="fa-solid fa-bolt"></i>
+      <p><strong>18°C</strong></p>
+    </div>
+    <div>
+      <p>wed</p>
+      <i class="fa-solid fa-cloud-bolt"></i>
+      <p><strong>16°C</strong></p>
+    </div>
+  </body>
+</html>

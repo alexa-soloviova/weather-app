@@ -1,0 +1,98 @@
+body {
+    display: block;
+    padding: 50px;
+    border: 2px #adadad solid;
+    border-radius: 4px;
+    margin-left: 240px;
+    margin-top: 55px;
+    width: 850px;
+}
+
+label {
+    float: right;
+    margin-left: 20px;
+    font-weight: 500px;
+    font-size: 20px;
+    margin-top: -25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.temp {
+    font-size: 50px;
+}
+
+h3 {
+    text-align: right;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 90px;
+    text-align: center;
+    padding: auto;
+    margin-top: 50px;
+}
+
+div {
+    display: inline-block;
+    border: 2px lightslategray solid;
+    width: 90px;
+    height: 135px;
+    text-align: center;
+    margin: 27px;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+i {
+    font-size: 40px;
+}
+
+p {
+    margin: 5px;
+    font-size: 18px;
+}
+
+strong {
+    font-size: 20px;
+}
+
+.form-control {
+    display: inline-block;
+    width: 290px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid lightslategray;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-left: 25px;
+}
+
+.btn-primary {
+    width: 97px;
+    height: 50px;
+    background-color: lightslategray;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 9px;
+    border-radius: 4px;
+}
+
+.vl {
+    margin: 5px;
+    border-left: 6px solid lightslategray;
+    height: 95px;
+    border-radius: 4px;
+    margin-top: -25px;
+    padding-right: 40px;
+    padding-left: 6px;
+}
+
+.hum-wind {
+    text-align: center;
+}
