@@ -102,3 +102,13 @@ strong {
     height: 120px;
     width: 120px;
 }
+
+.active {
+    color: rgb(33, 33, 33);
+    cursor: default;
+    
+}
+.active:hover {
+    color: rgb(33, 33, 33);
+    cursor: default;
+}
