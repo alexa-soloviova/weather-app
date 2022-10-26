@@ -97,3 +97,8 @@ strong {
     text-align: center;
 }
 
+.weather-img {
+    padding: 10px;
+    height: 120px;
+    width: 120px;
+}
