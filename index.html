@@ -30,11 +30,11 @@
       <button class="btn btn-primary">Search</button>
       <button class="btn btn-primary" id="current-but">Current</button>
       <label for="name" class="vl">
-        <span id="city">Menden</span> <br />
-        <span id="date">Friday 18.33 </span><br /><span id="weather-type">
-        Rain</span></label
-      >
+        <span id="city">New York</span> <br />
+        <span id="date">Tuesday 18.00</span><br />
+        <span id="weather-type">Rain</span></label>
     </form>
+
     <h1>
       <img src="" class="weather-img" id="icon"/>
       <span id="temperature">21</span>
@@ -42,33 +42,14 @@
       ><span class="temp"> / </span
       ><span class="temp"><a href="" id="fahrenheit">°F</a></span>
     </h1>
+
     <span class="hum-wind"><p>humidity: <span id="humidity"></span> % | wind: <span id="wind"></span> km/h</p></span>
-    <div>
-      <p>sat</p>
-      <i class="fa-solid fa-cloud"></i>
-      <p><strong>20°C</strong></p>
-    </div>
-    <div>
-      <p>sun</p>
-      <i class="fa-solid fa-cloud-bolt"></i>
-      <p><strong>19°C</strong></p>
-    </div>
-    <div>
-      <p>mon</p>
-      <i class="fa-solid fa-sun"></i>
-      <p><strong>21°C</strong></p>
-    </div>
-    <div>
-      <p>tue</p>
-      <i class="fa-solid fa-bolt"></i>
-      <p><strong>18°C</strong></p>
-    </div>
-    <div>
-      <p>wed</p>
-      <i class="fa-solid fa-cloud-bolt"></i>
-      <p><strong>16°C</strong></p>
-    </div>
-    <span class="linkToGit"><p><a href="https://github.com/alexa-soloviova/weather-app">Open-source code </a>by Alexa Soloviova</p></span>
+
+    <div class="weather-forecast" id="forecast"></div>
+
+    <p class="gitLink">
+      <a href="https://github.com/alexa-soloviova/weather-app">Open-source code </a>by Alexa Soloviova
+    </p>
     <script src="src/script.js"></script>
   </body>
   
