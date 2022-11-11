@@ -20,6 +20,7 @@
 
   </head>
   <body>
+    <div class="main-body">
     <form class="form">
       <input
         type="text"
@@ -29,12 +30,13 @@
       />
       <button class="btn btn-primary">Search</button>
       <button class="btn btn-primary" id="current-but">Current</button>
-      <label for="name" class="vl">
-        <span id="city">New York</span> <br />
-        <span id="date">Tuesday 18.00</span><br />
-        <span id="weather-type">Rain</span></label>
     </form>
-
+    <div class="weather-city-info">
+      <span id="city" class="info">New York</span>
+      <span id="date" class="info">Tuesday 18.00</span>
+      <span id="weather-type" class="info"> Rain</span>
+    </div>    
+    <hr>
     <h1>
       <img src="" class="weather-img" id="icon"/>
       <span id="temperature">21</span>
@@ -45,12 +47,14 @@
         <p>humidity: <span id="humidity"></span> % | wind: <span id="wind"></span> km/h</p>
       </span>
     </h1>
-
+    <hr>
     <div class="weather-forecast" id="forecast"></div>
-
+    <hr>
     <p class="gitLink">
       <a href="https://github.com/alexa-soloviova/weather-app">Open-source code </a>by Alexa Soloviova
     </p>
+    </div>
+
     <script src="src/script.js"></script>
   </body>
   
